@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
     bucket = "cision-terraform-devops"
-    prefix = "network/vpn/dev/oci-ha-vpn"
+    prefix = "network/vpn/dev/mtl-oci-ha-vpn"
   }
 }
 
